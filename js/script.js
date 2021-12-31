@@ -7,6 +7,16 @@ function day(){
   console.log(month);
   console.log(year);
   console.log(gender);
-  
-}
 
+}
+/* arrays of the female akan name*/
+let femaleAkanNames =[
+  "akosua", "adwoa", "abenaa", "akua", "yaa", "afua", "ama",  
+]
+/* arrays of the male akan name */
+let maleAkanNames =[
+  "kwasi", "kwadko", "kwabena", "kwaku", "yaw", "kofi", "kwame",
+]
+let DaysOfTheWeek =[
+  "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", 
+] 
