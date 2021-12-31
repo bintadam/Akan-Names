@@ -8,26 +8,29 @@
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-    <form action="">
-      <label for="year">Year</label>
-      <input type="number" name="year-of-birth" id="year-of-birth" placeholder="YY" required>
-      <br><br>
-      <label for="month">Month</label>
-      <input type="number" name="month-of-birth" id="month-of-birth" placeholder="MM" required>
-      <br><br>
-      <label for="day">Day</label>
-      <input type="number" name="day-of-birth" id="day-of-birth" placeholder="DD" required>
-      <br><br>
-      <label for="gender">Gender</label>
-      <input type="radio" id="gender" name="gender" value="male">
-      <br><br>
-      <label for="gender">male</label>
-      <input type="radio" id="gender" name="gender" value="female">
-      <label for="gender">female</label>
-      <br><br>
-      <button type="button" onclick="day()">Submit</button>
-      <br><br>
-    </form>
-    <script src="./js/script.js"></script>
+    <div class="main">
+      <div class="headings">
+        <h1></h1>
+          <form action="">
+            <label for="year">Year</label>
+            <input type="number" name="year-of-birth" id="year-of-birth" placeholder="YY" required>
+            <br><br>
+            <label for="month">Month</label>
+            <input type="number" name="month-of-birth" id="month-of-birth" placeholder="MM" required>
+            <br><br>
+            <label for="day">Day</label>
+            <input type="number" name="day-of-birth" id="day-of-birth" placeholder="DD" required>
+            <br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" id="gender" name="gender" value="male">
+            <br><br>
+            <label for="gender">male</label>
+            <input type="radio" id="gender" name="gender" value="female">
+            <label for="gender">female</label>
+            <br><br>
+            <button type="button" onclick="day()">Submit</button>
+            <br><br>
+          </form>
+           <script src="./js/script.js"></script>
   </body>
   </html>
