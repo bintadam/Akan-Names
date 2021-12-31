@@ -5,3 +5,10 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+body{
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 1rem;
+  font-weight: bold;
+}
