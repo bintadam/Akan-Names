@@ -6,8 +6,11 @@ function date(){
 
   if(document.getElementById("male").checked == true){
     gender = "male"
+  }else if(document.getElementById("female").checked == true){
+    gender = "female"
   }
-  
+   var centuary = parseInt(year.toString().substring(0, 2) + 1
+   
 
   /* arrays of the female akan name*/
   let femaleAkanNames =[
