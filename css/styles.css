@@ -11,3 +11,8 @@ body{
   text-decoration: none;
   text-indent: 1rem;
   font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}

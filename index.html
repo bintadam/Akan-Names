@@ -13,42 +13,27 @@
         <h1>Akan Name Creator</h1>
         <p>Welcome to akan name creator, this web is design to use the information of your birth date to know your Akan name depending on the your born and your gender</p>
         <p>Akan names are traditionally and most frequently used in Ghana.The names have further meanings the soul and character of the person</p>
-        <button type="button" onclick="learn more">learn more<a href="https://en.wikipedia.org/wiki/Akan_names"></a></button>
+        <button type="button"><a href="https://en.wikipedia.org/wiki/Akan_names">learn more</a></button>
         <br><br>  
         <form action="">
             <label for="year">Year</label>
             <input type="number" name="year-of-birth" id="year-of-birth" placeholder="YY" required>
             <br><br>
-            <tr>
-              <select name="month-of-birth" id="month-of-birth">
-                <option value="January">Jan</option>
-                <option value="February">Feb</option>
-                <option value="March">Mar</option>
-                <option value="April">Apr</option>
-                <option value="May">May</option>
-                <option value="June">Jun</option>
-                <option value="July">Jul</option>
-                <option value="August">Aug</option>
-                <option value="September">Sep</option>
-                <option value="October">Oct</option>
-                <option value="November">Nov</option>
-                <option value="December">Dec</option>
             <label for="month">Month</label>
             <input type="number" name="month-of-birth" id="month-of-birth" placeholder="MM" required>
-            </tr>
             <br><br>
             <label for="day">Day</label>
             <input type="number" name="day-of-birth" id="day-of-birth" placeholder="DD" required>
             <br><br>
-            <input type="button" value="calculate" onclick="calculate">
             <label for="gender">Gender</label>
             <br><br>
-            <input type="radio" id="gender" name="gender" value="male">
+            <input type="radio" id="male" name="gender" value="male">
             <label for="gender">male</label>
-            <input type="radio" id="gender" name="gender" value="female">
+            <br><br>
+            <input type="radio" id="female" name="gender" value="female">
             <label for="gender">female</label>
             <br><br>
-            <button type="button" onclick="day()">Submit</button>
+            <button type="button" onclick="date()">Submit</button>
             <br><br>
           </form>
            <script src="./js/script.js"></script>
