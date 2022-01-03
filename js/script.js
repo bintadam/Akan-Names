@@ -4,7 +4,9 @@ function date(){
   let year = parseInt(document.getElementById("year-of-birth").value);
   let gender;
 
-  
+  if(document.getElementById("male").checked == true){
+    gender = "male"
+  }
   
 
   /* arrays of the female akan name*/
