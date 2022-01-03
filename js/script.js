@@ -11,14 +11,14 @@ function date(){
   }
    
   var centuary = parseInt(year.toString().substring(0, 2)) + 1
-   var year = parseInt(year.toString().substring(2, 4))
-   var dayOfWeek = (((centuary/4)-2*centuary-1) + ((5*year/4)) + ((26*(month+1)/10) + day))% 7
+  var yearr = parseInt(year.toString().substring(2, 4))
+  var dayOfWeek = (((centuary/4)-2*centuary-1) + ((5*year/4)) + ((26*(month+1)/10) + day))% 7
  
-   if(centuary == 21){
-     dayOfWeek = Math.ceil(dayOfWeek)
-   }else{
-     dayOfWeek = Math.round(dayOfWeek)
-   } 
+  if(centuary == 21){
+    dayOfWeek = Math.ceil(dayOfWeek)
+  }else{
+    dayOfWeek = Math.round(dayOfWeek)
+  } 
 
   /* arrays of the female akan name*/
   let femaleAkanNames =[
