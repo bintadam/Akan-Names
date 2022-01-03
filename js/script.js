@@ -9,8 +9,8 @@ function date(){
   }else if(document.getElementById("female").checked == true){
     gender = "female"
   }
-   var centuary = parseInt(year.toString().substring(0, 2) + 1
-   
+   var centuary = parseInt(year.toString().substring(0, 2)) + 1
+   var year = parseInt(year.toString().substring(2, 4))
 
   /* arrays of the female akan name*/
   let femaleAkanNames =[
