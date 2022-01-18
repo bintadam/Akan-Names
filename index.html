@@ -15,26 +15,29 @@
         <p>Akan names are traditionally and most frequently used in Ghana.The names have further meanings the soul and character of the person</p>
         <button type="button"><a href="https://en.wikipedia.org/wiki/Akan_names">learn more</a></button>
         <br><br>  
-        <form action="">
-            <label for="year">Year</label>
-            <input type="number" name="year-of-birth" id="year-of-birth" placeholder="YY" required>
+        <form action="Akan">
+            <div>
+              <input type="text" name="year" id="year" placeholder="YY" required>
+            </div>
+            <div>
+              <input type="text" name="month" id="month" placeholder="MM" required>
+            </div>
+            <div class="form">
+              <input type="text" name="day" id="day" placeholder="DD" required>
+            </div>
+            <div class="form">
+              <label>Select Gender</label>
+              <select class="gender-form" id="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
+            <div class="form">
+            <button onclick="fetchvalue()" class="btn btn-primary">Submit</button>
+            <input type="reset" value="reset value" name="" class="btn btn-danger">
+            </div>         
             <br><br>
-            <label for="month">Month</label>
-            <input type="number" name="month-of-birth" id="month-of-birth" placeholder="MM" required>
-            <br><br>
-            <label for="day">Day</label>
-            <input type="number" name="day-of-birth" id="day-of-birth" placeholder="DD" required>
-            <br><br>
-            <label for="gender">Gender</label>
-            <br><br>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="gender">male</label>
-            <br><br>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="gender">female</label>
-            <br><br>
-            <button type="button" onclick="date()">Submit</button>
-            <br><br>
+          
           </form>
            <script src="./js/script.js"></script>
   </body>
