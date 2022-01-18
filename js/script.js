@@ -23,27 +23,14 @@ if (dateInt <= 0 || dateInt > 31){
    dayOfWeek(dateInt, monthInt, yearInt, gender)
  }
 
-}   
-
-/* arrays of the days of the week*/
-let daysOfTheWeek = [
-  "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
-] 
-
-
-/* arrays of the female akan name*/
-  let femaleAkanNames =[
-  "akosua", "adwoa", "abenaa", "akua", "yaa", "afua", "ama",  
-  ]
-  /* arrays of the male akan name */
-  let maleAkanNames =[
-  "kwasi", "kwadko", "kwabena", "kwaku", "yaw", "kofi", "kwame",
-  ]
+}
+function dayOfTheWeek(dateInt, monthInt, gender, cc, yy){
+  var bornDay = (((cc/4)-2*cc-1)+((5*yy/4))+((26*(monthInt+1)/10))+dateInt)%7;
+  var dayweek = Math.floor(bornDayc)
   
-  if(gender=="male"){
-    alert("your akan name is " + maleAkanNames[dayOfWeek])
-  }else if( gender== "female"){
-    alert("your akan name is " + femaleAkanNames[dayOfWeek])
-  }else{
-    alert("invalid")
-  }
+} 
+function finalOutPut(dayweek, gender){
+  var week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday","Saturday",];
+  var maleAkanNames = ["kwasi", "kwadmo", "kwabena", "kwaku", "yaw", "kofi","kwame"];
+  var femaleAkanNames = ["akosua", "adwoa", "abenaa", "akua", "yaa", "afua", "ama",]
+}  
