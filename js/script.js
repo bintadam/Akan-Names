@@ -42,12 +42,48 @@ function finalOutPut(dayweek, gender){
   
   if(dayweek == 1 && gender === "Male"){
     alert("you were born on " + week[0] + " and your akan name is " + maleAkanNames[0]);
+  
   }else if (dayweek == 1 && gender === "Female"){
     alert("you were born on " + week[0] + " and your akan name is " + femaleAkanNames[0]);
+  
   } else if (dayweek == 2 && gender === "Male"){
     alert("you were born on " + week[1] + " and your akan name is " + maleAkanNames[1]);
+  
+  }else if (dayweek == 2 && gender === "Female"){
+    alert("you were born on " + week[1] + " and your akan name is " + maleAkanNames[1]);
+  
+  }else if (dayweek == 3 && gender === "Male"){
+    alert("you were born on " + week[2] + " and your akan name is " + maleAkanNames[1]);
+  
+  }else if (dayweek == 3 && gender === "Female"){
+    alert("you were born on " + week[2] + " and your akan name is " + maleAkanNames[1]);
+  
+  }else if (dayweek == 4 && gender === "Male"){
+    alert("you were born on " + week[3] + " and your akan name is " + maleAkanNames[1]);
+  
+  }else if (dayweek == 4 && gender === "Female"){
+    alert("you were born on " + week[3] + " and your akan name is " + maleAkanNames[1]);
+  
+  }else if (dayweek == 5 && gender === "Male"){
+    alert("you were born on " + week[4] + " and your akan name is " + maleAkanNames[1]);
+  
+  }else if (dayweek == 5 && gender === "Female"){
+    alert("you were born on " + week[4] + " and your akan name is " + maleAkanNames[1]);
+  
+  }else if (dayweek == 6 && gender === "Male"){
+    alert("you were born on " + week[5] + " and your akan name is " + maleAkanNames[1]);
+  
+  }else if (dayweek == 6 && gender === "Male"){
+    alert("you were born on " + week[5] + " and your akan name is " + maleAkanNames[1]);
+  
+  }else if (dayweek == 7 && gender === "Male"){
+    alert("you were born on " + week[6] + " and your akan name is " + maleAkanNames[1]);
+  
+  }else if (dayweek == 7 && gender === "Male"){
+    alert("you were born on " + week[6] + " and your akan name is " + maleAkanNames[1]);
+  }
 
   }
 
-}
+
   
