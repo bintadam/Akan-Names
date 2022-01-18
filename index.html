@@ -16,15 +16,18 @@
         <button type="button"><a href="https://en.wikipedia.org/wiki/Akan_names">learn more</a></button>
         <br><br>  
         <form action="Akan">
-            <div>
-              <input type="text" name="year" id="year" placeholder="YY" required>
-            </div>
-            <div>
-              <input type="text" name="month" id="month" placeholder="MM" required>
-            </div>
             <div class="form">
-              <input type="text" name="day" id="day" placeholder="DD" required>
+              <input type="text" name="year" class="form-1" id="year" placeholder="YY" required>
             </div>
+            <br><br>
+            <div class="form">
+              <input type="text" name="month" class="form-1" id="month" placeholder="MM" required>
+            </div>
+            <br><br>
+            <div class="form">
+              <input type="text" name="day" class="form-1" id="day" placeholder="DD" required>
+            </div>
+            <br><br>
             <div class="form">
               <label>Select Gender</label>
               <select class="gender-form" id="Gender">
@@ -32,9 +35,11 @@
                 <option value="Female">Female</option>
               </select>
             </div>
+            <br><br>
             <div class="form">
             <button onclick="fetchvalue()" class="btn btn-primary">Submit</button>
-            <input type="reset" value="reset value" name="" class="btn btn-danger">
+            <br><br>
+            <input type="reset" value="reset form" name="" class="btn btn-danger">
             </div>         
             <br><br>
           
