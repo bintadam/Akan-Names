@@ -32,5 +32,42 @@ function dayOfTheWeek(dateInt, monthInt, gender, cc, yy){
 function finalOutPut(dayweek, gender){
   var week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday","Saturday",];
   var maleAkanNames = ["kwasi", "kwadmo", "kwabena", "kwaku", "yaw", "kofi","kwame"];
-  var femaleAkanNames = ["akosua", "adwoa", "abenaa", "akua", "yaa", "afua", "ama",]
+  var femaleAkanNames = ["akosua", "adwoa", "abenaa", "akua", "yaa", "afua", "ama",];
+  if(dayweek == 1 && gender === "male"){
+    alert("you were born on " +week[0] + " and your akan name is " + maleAkanNames[0])
+  }else if (dayweek == 1 && gender === "female"){
+    alert("you were born on " +week[0] + " and your akan name is " + femaleAkanNames[0])
+  }
+  if(dayweek == 2 && gender === "male"){
+    alert("you were born on " +week[1] + " and your akan name is " + maleAkanNames[1])
+   } else if (dayweek == 2 && gender === "female"){
+    alert("you were born on " +week[1] + " and your akan name is " + femaleAkanNames[1])
+  
+  if(dayweek == 3 && gender === "male"){
+    alert("you were born on " +week[2] + " and your akan name is " + maleAkanNames[2])
+  } else if (dayweek == 1 && gender === "female"){
+    alert("you were born on " +week[2] + " and your akan name is " + femaleAkanNames[2])
+  
+  if(dayweek == 4 && gender === "male"){
+    alert("you were born on " +week[3] + " and your akan name is " + maleAkanNames[3])
+  } else if (dayweek == 1 && gender === "female"){
+    alert("you were born on " +week[] + " and your akan name is " + femaleAkanNames[3])
+  
+  if(dayweek == 5 && gender === "male"){
+    alert("you were born on " +week[4] + " and your akan name is " + maleAkanNames[4])
+  } else if (dayweek == 1 && gender === "female"){
+    alert("you were born on " +week[4] + " and your akan name is " + femaleAkanNames[4])
+  
+  if(dayweek == 6 && gender === "male"){
+    alert("you were born on " +week[5] + " and your akan name is " + maleAkanNames[0])
+  } else if (dayweek == 1 && gender === "female"){
+    alert("you were born on " +week[5] + " and your akan name is " + femaleAkanNames[0])
+  
+  
+  } else if (dayweek == 7 && gender === "female"){
+      alert("you were born on " +week[6] + " and your akan name is " + femaleAkanNames[6])
+  } else if (dayweek == 1 && gender === "female"){
+    alert("you were born on " +week[6] + " and your akan name is " + femaleAkanNames[6])
+  } 
+
 }  
