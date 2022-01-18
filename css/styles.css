@@ -16,3 +16,11 @@ body{
 a {
   text-decoration: none;
 }
+@media  screen and (max-width:768px) 
+{
+width: 100%;  
+}
+@media screen and (min-width:600px)
+{
+ width: 91.3% 
+}
