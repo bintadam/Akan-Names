@@ -10,6 +10,7 @@ var centuary = yearOfBirth.slice(0, 2);
 var bornYear = yearOfBirth.slice(2, 5);
 var cc = parseInt(centuary);
 var yy = parseInt(bornYear);
+console.log(centuary + "" + bornYear)
 validateValues(dateInt, monthInt,gender, cc, yy)
 
 
@@ -24,7 +25,13 @@ if (dateInt <= 0 || dateInt > 31){
 
 }   
 
-  /* arrays of the female akan name*/
+/* arrays of the days of the week*/
+let daysOfTheWeek = [
+  "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+] 
+
+
+/* arrays of the female akan name*/
   let femaleAkanNames =[
   "akosua", "adwoa", "abenaa", "akua", "yaa", "afua", "ama",  
   ]
