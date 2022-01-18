@@ -6,11 +6,23 @@ var gender = document.getElementById('gender').value;
 var dateInt = parseInt(dateOfBirth);
 var monthInt = parseInt(monthOfBirth);
 var yearInt = parseInt(yearOfBirth);
+var centuary = yearOfBirth.slice(0, 2);
+var bornYear = yearOfBirth.slice(2, 5);
+var cc = parseInt(centuary);
+var yy = parseInt(bornYear);
+validateValues(dateInt, monthInt,gender, cc, yy)
 
 
-validateValues();
+function validateValues(dateInt, monthInt, yearInt, gender, cc, yy){
+if (dateInt <= 0 || dateInt > 31){
+  alert("Give a valid date");
+ }else if (monthInt <=o ||monthInt > 12){
+   alert("Give a valid month")
+ }else {
+   dayOfWeek(dateInt, monthInt, yearInt, gender)
+ }
 
-   
+}   
 
   /* arrays of the female akan name*/
   let femaleAkanNames =[
